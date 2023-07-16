@@ -1,16 +1,21 @@
-console.log('tons que');
-
-let firstname = 'Pepe';
-firstname = 'Andres'
-
-const lastname = 'Doe';
-
-const condicion = true;
-
-if(condicion){
-    firstname = 'Ale';
-    const lastname = 'Doe';
-    console.log('Inside ' + lastname )
+function sayHello(name = 'Pepe'){
+    console.log(`Hallo Function ${name}`);
 }
 
-console.log(`Hallo mondo ${firstname} ${lastname}`);
+function sayHelloReturn(){
+    const greeting = 'Hallo Function R';
+    return greeting;
+}
+
+const sayHolaLambda = (name = 'Default') => 'Hallo Function Lambda ' + name;
+const add = (a = 0, b = 0) => a + b;
+
+
+
+sayHello();
+sayHello('Carlitos');
+const result = sayHelloReturn();
+console.log(result);
+
+console.log(sayHolaLambda());
+console.log(add(123, 77));
