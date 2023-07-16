@@ -13,4 +13,4 @@ if(condicion){
     console.log('Inside ' + lastname )
 }
 
-console.log('Hallo mondo ' + firstname + ' ' + lastname )
+console.log(`Hallo mondo ${firstname} ${lastname}`);
