@@ -1,16 +1,16 @@
 console.log('tons que');
 
-let name = 'Pepe';
-// name = 'Andres'
+let firstname = 'Pepe';
+firstname = 'Andres'
 
 const lastname = 'Doe';
 
 const condicion = true;
 
 if(condicion){
-    name = 'Ale';
+    firstname = 'Ale';
     const lastname = 'Doe';
-    console.log('Inside ' lastname )
+    console.log('Inside ' + lastname )
 }
 
-console.log('Hallo mondo ' + name + ' ' + lastname )
+console.log('Hallo mondo ' + firstname + ' ' + lastname )
