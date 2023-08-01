@@ -15,4 +15,7 @@ npm run dev
 	npm run dev		
 
 	https://jsonplaceholder.typicode.com/
+
+	https://babeljs.io/
+	
 	
