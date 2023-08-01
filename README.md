@@ -13,3 +13,6 @@ npm run dev
 	npm create vite@latest		
 	npm install	 para dependencias	
 	npm run dev		
+
+	https://jsonplaceholder.typicode.com/
+	
